@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hola ED2024 </h1>
+    <div id="container"> <!-- Agregamos un contenedor para el borde -->
+        <header>
+            <div class="header-left">
+                <h2>SOBRE MÍ</h2>
+                <p>Soy un chico de 24 años de edad, actualmente curso en cuarto año en la carrera de Ingeniería en Informática y Sistemas en la Universidad Rafael Landívar.</p>
+            </div>
+            <div class="header-right">
+                <h1>SERGIO CARDONA</h1>
+                <p>Ingeniero Informático en Sistemas</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-left"> 
+                <section id="projects">
+                    <h2>Proyectos</h2>
+                    <ul>
+                        <li>Simulación del portal académico de la Universidad Rafael Landívar (C#).</li>
+                        <li>Juego SpaceBox (C#)</li>
+                        <li>Aplicación de música (C#)</li>
+                        <li>Álbum del Mundial Qatar 2024 (C#)</li>
+                        <li>Circuito prototipo de semáforos de tres vías (protoboard)</li>
+                        <li>Word (Assembler)</li>
+                        <li>Alarma de reloj manejada por un Microcontrolador (Assembler)</li>
+                        <li>Circuito de casa inteligente con sensores y módulos de comunicación (Bluetooth y SIM) (Arduino)</li>
+                        <li>Base de datos para un Sistema de asignación de cursos y talleres en la Universidad de Springfield (SQL)</li>
+                        <li>Base de datos para un juego en línea tipo Battle Royale (SQL)</li>
+                        <li>Demostración de vulnerabilidades en una aplicación en Windows XP (Kali Linux)</li>
+                        <li>Calculadora de matrices (TASM)</li>
+                        <li>Desarrollo Front-End de una librería de componentes para la empresa de Disagro (Frameworks: Vue.js, Next.js y Angualar)</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main-right">
+                <div class="profile-image">
+                    <img src="imagen.jpg" alt="Imagen de perfil">
+                </div>
+                <section id="contact">
+                    <h2>CONTACTO</h2>
+                    <p>Ciudad de Guatemala</p>
+                </section>
+                
+                <section id="education">
+                    <h2>EDUCACIÓN</h2>
+                    <p>Educación Básica</p>
+                    <p>Colegio San Sebastián</p>
+                    <p>2008 - 2018</p>
+                    <p>Educación Superior</p>
+                    <p>Universidad Rafael Landívar</p>
+                    <p>2019 - actualidad</p>
+                </section>
+                
+                <section id="references">
+                    <h2>REFERENCIAS</h2>
+                    <p>Diego Orellana</p>
+                    <p>Catedrático en Estructuras de Datos</p>
+                </section>
+            </div>
+         
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sergio Cardona</p>
+               <!-- Enlace de descarga del PDF -->
+               <p><a href="ruta/al/tu-curriculum.pdf" download>Descargar CV</a></p>
+        </footer>
+    </div> <!-- Cerramos el contenedor -->
 </body>
 </html>
