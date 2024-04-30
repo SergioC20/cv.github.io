@@ -19,6 +19,7 @@ header, footer {
 /* Estilos para el main */
 main {
     display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en pantallas más pequeñas */
 }
 
 .main-left {
@@ -148,4 +149,13 @@ header {
 
 .header-right p {
     margin-top: 5px;
+}
+
+/* Media Queries para pantallas más pequeñas, como teléfonos */
+@media only screen and (max-width: 768px) {
+    .main-left, .main-right {
+        flex: 100%; /* Cambiar el ancho de las columnas a 100% en pantallas más pequeñas */
+        margin-left: 0; /* Eliminar el margen izquierdo en pantallas más pequeñas */
+        margin-right: 0; /* Eliminar el margen derecho en pantallas más pequeñas */
+    }
 }
